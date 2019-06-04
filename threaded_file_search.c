@@ -133,7 +133,7 @@ void threaded_recursive(char * file){
              count_down_dirs < tld_count; \
              thread_counter++, count_down_dirs++) {
             pthread_create(&tid_array[thread_counter], NULL,\
-                           recur_file_search, top_level_dirs[count_down_dirs]);
+                           &recur_file_search, top_level_dirs[count_down_dirs]);
         }
         
         // Wait for threads to complete.
