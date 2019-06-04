@@ -1,5 +1,12 @@
-// Built on the Canvas code given by instructor
-//
+// Saif Ahmed
+// Lab 4 - Threaded File Search
+// 6-3-2019
+
+
+//current build notes: Does not run on luke
+
+
+// built off of code Dr. Dingler provided on canvas
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
